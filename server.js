@@ -1,6 +1,6 @@
 const express = require("express")
 const { animals } = require('./data/animals')
-const PORT = process.env.PORT || 80
+const PORT = process.env.PORT || 80;
 const app = express()
 
 function filterByQuery(query, animalsArray) {
